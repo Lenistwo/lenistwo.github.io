@@ -1,6 +1,7 @@
-*{
+* {
     overflow: hidden;
 }
+
 .section {
     position: relative;
     min-height: 100vh;
@@ -9,7 +10,7 @@
     justify-content: center;
 }
 
-.section h1{
+.section h1 {
     text-align: center;
     font-size: 8vw;
     color: #c5945c;
@@ -17,30 +18,35 @@
     padding: 20px;
     margin: 15px;
 }
-.section img{
+
+.section img {
     height: 30vh;
     width: 30vh;
     border-radius: 50%;
 }
-.video-container{
+
+.video-container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
-#background-video{
+
+#background-video {
     right: 0;
     bottom: 0;
     position: fixed;
     min-height: 100vh;
     min-width: 100%;
 }
-.main{
+
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 1;
 }
+
 .icons {
     margin-top: 1%;
     font-size: 30pt;
@@ -50,8 +56,18 @@
     text-decoration: none;
     color: #c5945c;
 }
+
 .icons a:hover {
-    text-decoration: none;
     color: #000000;
+}
+
+#linked :hover {
+    color: #0e76a8;
+}
+#fb :hover {
+    color: #3b5998;
+}
+#gmail :hover {
+    color: #c71610;
 }
 
