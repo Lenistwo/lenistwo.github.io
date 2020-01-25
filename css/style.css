@@ -1,10 +1,12 @@
+*{
+    overflow: hidden;
+}
 .section {
     position: relative;
     min-height: 100vh;
     min-width: 100%;
     display: flex;
     justify-content: center;
-    overflow: hidden;
 }
 
 .section h1{
@@ -14,15 +16,11 @@
     font-family: 'Josefin Sans', sans-serif;
     padding: 20px;
     margin: 15px;
-    z-index: 1;
-    transform: translate(-1vw);
 }
 .section img{
     height: 30vh;
     width: 30vh;
-    z-index: 1;
     border-radius: 50%;
-    transform: translate(8vw, 10%);
 }
 .video-container{
     position: absolute;
@@ -38,15 +36,14 @@
     min-width: 100%;
 }
 .main{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     z-index: 1;
-    position: relative;
 }
 .icons {
     margin-top: 1%;
     font-size: 30pt;
-    position: absolute;
-    transform: translate(12vw);
 }
 
 .icons a {
