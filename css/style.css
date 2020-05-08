@@ -23,6 +23,7 @@
     height: 30vh;
     width: 30vh;
     border-radius: 50%;
+    filter: grayscale(1);
 }
 
 .video-container {
